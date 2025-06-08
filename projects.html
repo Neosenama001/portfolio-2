@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="projects.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel='stylesheet'>
+</head>
+<body>
+     <div class="navbar">
+        <a href="index.html" class="logo">Projects</a>
+         <div class="sidebar">
+        <ul class="nav-links">
+          <ul onclick="hideSidebar()"><a href="#"><i id="icon" class="fa-solid fa-xmark"></i></a></ul>
+            <a href="projects.html">Projects</a>
+            <a href="tel:+27625741296">call us</a>
+            <a href="https://github.com/Neosenama001/portfolio/tree/main">Web Developments</a>
+        </ul>
+         </div>
+
+                 <div class="nav-links">
+            <a class="hideOnMobile" href="projects.html">Projects</a> 
+            <a class="hideOnMobile" href="#services">Web Development</a>
+            <a class="hideOnMobile" href="#contacts">contact us</a>
+            <a class="menu-button" onclick="showSidebar()" href="#"><i  class="fa-solid fa-bars"></i></a>
+        </div>
+    </div>
+     <main>
+<main>
+<main>
+  <section class="cards-wrapper">
+    <h2 class="wrapper-heading">Front-End Development</h2>
+    <div class="card-container">
+
+      <div class="card">
+        <img src="image.jpeg" alt="Image 1" />
+        <p>This is some info about the first item.</p>
+        <button>Learn More</button>
+      </div>
+      <div class="card">
+        <img src="image2.jpg" alt="Image 2" />
+        <p>This is some info about the second item.</p>
+        <button>Learn More</button>
+      </div>
+      <div class="card">
+        <img src="image3.jpg" alt="Image 3" />
+        <p>This is some info about the third item.</p>
+        <button>Learn More</button>
+      </div>
+      <div class="card">
+        <img src="image4.jpg" alt="Image 4" />
+        <p>This is some info about the fourth item.</p>
+        <button>Learn More</button>
+      </div>
+      <div class="card">
+        <img src="image5.jpg" alt="Image 5" />
+        <p>This is some info about the fifth item.</p>
+        <button>Learn More</button>
+      </div>
+      <div class="card">
+        <img src="image6.jpg" alt="Image 6" />
+        <p>This is some info about the sixth item.</p>
+        <button>Learn More</button>
+      </div>
+    </div>
+  </section>
+<hr class="section-break">
+
+   <section class="cards-wrapper">
+    <h2 class="wrapper-heading">Skills and Technologies</h2>
+    <div class="card-container">
+      <div class="card">
+        <i class="fa-brands fa-html5"></i>
+        <p>HTML</p>
+      </div>
+      <div class="card">
+        <i class="fa-brands fa-css3-alt"></i>
+        <p>CSS</p>
+      </div>
+      <div class="card">
+        <i class="fa-brands fa-js"></i>
+        <p>JavaScript</p>
+      </div>
+       <div class="card">
+       <i class="fa-brands fa-figma"></i>
+        <p>Figma</p>
+      </div>
+      <div class="card">
+        <i class="fa-brands fa-git-alt"></i>
+        <p>Git</p>
+      </div>
+        <div class="card">
+        <i class="fa-brands fa-github"></i>
+        <p>GitHub</p>
+      </div>
+    </div>
+  </section>
+<hr class="section-break">
+    <section class="cards-wrapper">
+    <h2 class="wrapper-heading">Front-End Development</h2>
+    <div class="card-container">
+      <div class="card">
+        <img src="image1.jpg" alt="Image 1" />
+        <p>This is some info about the first item.</p>
+        <button>Learn More</button>
+      </div>
+      </section>
+     </main>
+     <footer>
+        <p id="copy">&copy; 2025 Johannes Senama. All rights reserved. </p>
+        <div id="links" class="social-links">
+            <a href="https://wa.me/27625741296"><i class='bx bxl-whatsapp' ></i></a>
+            <a href="https://www.linkedin.com/in/johannes-senama-22a55729b/"><i class='bx bxl-linkedin' ></i></a>
+            <a href="mailto:neosenama12@gmail.com"><i class='bx bx-envelope' ></i></a>
+
+        </div>
+    </footer>
+
+        <script>
+  function showSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'flex'
+  }
+
+    function hideSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'none'
+    }
+</script>
+</body>
+
+</html>

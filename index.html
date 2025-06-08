@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel='stylesheet'>
+</head>
+<body>
+    <!--navigation bar-->
+    <div class="container">
+    <nav class="navbar">
+        <div class="logo-wrapper"></div>
+        <a href="index.html" class="logo">JOHANNES SENAMA</a>
+        
+        <div class="sidebar">
+        <ul onclick="hideSidebar()"><a href="#"><i id="icon" class="fa-solid fa-xmark"></i></a></ul>
+        <ul class="nav-links">
+            <a href="projects.html">Projects</a>
+            <a href="tel:+27625741296">call us</a>
+            <a href="https://github.com/Neosenama001/portfolio/tree/main">Web Developments</a>
+        </ul>
+         </div>
+
+         
+        <div class="nav-links">
+            <a class="hideOnMobile" href="projects.html">Projects</a> 
+            <a class="hideOnMobile" href="#services">Web Development</a>
+            <a class="hideOnMobile" href="#contacts">contact us</a>
+            <a class="menu-button" onclick="showSidebar()" href="#"><i  class="fa-solid fa-bars"></i></a>
+        </div>
+    </div>
+    </nav>
+
+    <!--hero section-->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Front-End Developer</h1>
+            <p class="highlight">Hi, I'm a passionate front-end developer with hands-on experience in HTML, CSS, and JavaScript. I specialize in building responsive, user-friendly websites that are both functional and visually appealing. As an entry-level developer, I'm constantly learning and growing, always eager to take on new challenges and improve my skills.
+
+In addition to coding, I have experience using Figma to design wire frames and UI layouts, helping me bridge the gap between design and development. My goal is to create web experiences that are intuitive, fast, and accessible to all users</p>
+        
+        </div>
+        <div class="hero-image">
+            <video src="video.mp4" autoplay loop autoplay muted  alt="profile" class="profile-img"></video>
+            <a href="johnnes.pdf" class="cta-button">Resume</a>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 Johannes Senama. All rights reserved. </p>
+        <div class="social-links">
+            <a href="https://wa.me/27625741296"><i class='bx bxl-whatsapp' ></i></a>
+            <a href="https://www.linkedin.com/in/johannes-senama-22a55729b/"><i class='bx bxl-linkedin' ></i></a>
+            <a href="mailto:neosenama12@gmail.com"><i class='bx bx-envelope' ></i></a>
+
+        </div>
+    </footer>
+
+    <script>
+  function showSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'flex'
+  }
+
+    function hideSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'none'
+    }
+</script>
+</div>
+</body>
+</html>
