@@ -209,6 +209,11 @@ footer a:hover {
 }
 
 
+ .menu-button{
+  display: none;
+ }
+
+
 @keyframes softBlink {
   0% { opacity: 1; }
   50% { opacity: 0.6; }
